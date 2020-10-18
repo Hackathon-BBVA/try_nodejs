@@ -1,19 +1,18 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import '../assets/css/main.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React Jordan King</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit personality <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <section id="banner">
+				<h2>Ecosistema DATATHON</h2>
+				<p>Elaborado por el leitmotiv <br /> Data Science</p>
+				<ul class="actions">
+					<li><a href="#Problema" class="button special big">Inicio</a></li>
+				</ul>
+			</section>
     );
   }
 }
